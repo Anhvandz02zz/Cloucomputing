@@ -1,0 +1,230 @@
+::root {
+	--main-color: #154054;
+}
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+ul{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+a {
+text-decoration: none;
+}
+.top{
+	background-color:#154054;   
+     width: 100%;
+     height: 80px;
+}
+.top .menu  {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	margin: 20px auto;
+	margin-top: 0px;
+	
+}
+.logo img{
+	width: 70px;
+	height: 45px;
+	margin-top: -5px;
+	
+}
+.logo{
+	width: 100px;
+	cursor: pointer;	
+}
+.search{
+width: 700px;
+cursor: pointer;
+}
+.search input{
+	width: 600px;
+	height: 40px;
+	border: none;
+	outline: none;
+	border-radius: 10px;	
+}
+.search button{
+	width: 40px;
+	height: 35px;
+	border: none;
+	outline: none;
+	background-color: #50C7B3;
+
+}
+.login{
+width: 300px;
+right:100px;
+margin-top: 5px;
+cursor: pointer;
+
+}
+.login p{
+	float: left;
+	margin-left: 20px;		
+	font-weight:100 ;
+
+}
+.login p a{
+color: white;
+}
+.login p:hover{
+	background-color: #AFEEEE;
+	
+}
+
+/*------------------Đây là menu2--------------*/
+
+.menu1{
+	border-top: 1px solid skyblue;
+	background-color:#154054;
+	height: 50px; 
+}
+.sub-menu ul{
+	display: flex;
+	margin-top: 6px;
+	margin-left: 10px;	
+}
+.sub-menu ul li{
+	padding: 10px;
+	margin: 10 auto;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+	color: white;
+}
+.sub-menu ul li a {
+	color: white;
+}
+.sub-menu ul li:hover{
+	background-color: tomato;
+}
+/*---------------------video-----------*/
+.video-container{
+	height: 100%;
+	width: 100%;
+}
+.video-container video{
+	width: 100%;
+	height: 90%;
+	object-fit: contain;
+}
+/*-------------Làm Mờ phần từ-------------------*/
+.opi-container{
+	width: 100%;
+	position: absolute;
+	height: 90px;
+	top: 894px;
+	background-color: #A8916C;
+	opacity:0.5 ;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#select1{
+	width: 25%;
+	height: 40px;
+	margin-top: 28px;
+	background-color: white;
+}
+#select2{
+	width: 25%;
+	height: 40px;
+    
+	margin-top: 28px;
+	background-color: white;
+}
+#select3{
+	width: 25%;	
+}
+#select3 button{
+	margin-top: 28px;
+	height: 40px;
+	width: 380px;
+	background-color: white;
+}
+/*-------------text-travel-------------------*/
+.text-travel{
+
+	margin-top: 0;
+}
+.text{
+	text-align: center;
+	margin-top: 70px;
+	
+
+}
+/*-------------Gotravel-------------------*/
+.gotravel-container{
+	width: 1000px;
+	margin-left: 300px;
+	margin-right: 200px;
+	margin-top: 30px;	
+	height: 1000px;
+
+}
+.product-content{
+	border: none;
+	outline: none;
+	margin-top: 20px;
+
+}
+.product .product-content{
+	margin-left: 20px;
+	float: left;
+
+}
+.product-content-img img{
+	width: 280px;
+	height: 250px;
+}
+.product-content-text li{
+	border-top-color: #87CEEB; 
+}
+.product-content-text li h3{
+	font-size: 17px;
+	cursor: pointer;
+}
+.product-content-text li h3:hover{
+color: #33CC00;
+}
+.product-content-text li i{
+	color: #DDDDDD;
+	font-size: 13#33CC00x;
+}
+.product-content-text li p{
+  text-decoration: line-through;
+display: inline;
+}
+.product-content-text li h4{
+font-size: 15px;
+color: tomato;
+}
+.product-content-text li p{
+    color: #C0C0C0;
+	font-size: 13px;
+}
+.product-content-text li button{
+	float: right;
+	outline: none;
+	width: 170px;
+	height: 40px;
+	border: none;
+	background-color: #0000CC;
+	color: white;
+	font-size: 17px;
+	border: inherit;
+	cursor: pointer;
+}
+.product-content-text li button:hover{
+	background-color: 	#00FF00;
+}
